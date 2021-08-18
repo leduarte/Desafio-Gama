@@ -9,18 +9,161 @@
     <title>LandingPage JobsNET</title>
 </head>
 <body>
+    <header>
+        <div class="logo">
+            <img src="img/2.png" alt="Logo JobsNET">
+        </div>
 
-    <div class="logo">
-        <img src="img/logo1.png" alt="Logo JobsNET">
-    </div>
+        <ul>
+            <li> <a href="https://www.google.com" target="_blanck">Institucional</a> </li>
+            <li> <a href="https://www.google.com" target="_blanck">Vagas</a></li>
+            <li> <a href="https://www.google.com" target="_blanck">Contato</a></li>
+        </ul>
+    </header>
 
-    <div class="container">
-        <img src="img/rh.webp" alt="Imagem RH">
-    </div>
+    <main>
+        <div class="container">
+            <img src="img/foto.png" alt="Imagem RH">
+        </div>
 
-    <div>
-        <h1></h1>
-    </div>
-    
+        <div class="formulario">
+            <h1 class="titulo1">Faça aqui o seu cadastro</h1>
+            <p class="subtitulo">Vamos juntos conquistar o seu próximo emprego!</p><br>
+
+            <h2 class="titulo">DADOS PESSOAIS</h2><br>
+
+            <form>
+                <div class="campo">
+                    <label for="nome"><strong>Nome Completo: *</strong></label>
+                    <input type="text" name="nome" id="nome" required>
+                </div>
+
+                <div class="campo">
+                    <label for="cargo"><strong>Cargo Pretendido: </strong></label>
+                    <input type="text" name="cargo" id="cargo">
+                </div> 
+
+                <div class="campo">
+                    <label><strong>Email: *</strong></label>
+                    <input type="text" name="email" id="email" required>
+                </div class="campo"><br>
+
+                <div class="campo">
+                    <label for="genero"><strong>Gênero: </strong></label>
+                    <select id="genero">
+                        <option selected disable value="">Selecione</option>
+                        <option>Feminino</option>
+                        <option>Masculino</option>
+                        <option>Outro</option>
+                        <option>Prefiro não dizer</option>
+                    </select>
+                </div>
+
+                <div class="campo">
+                    <label for="date"><strong>Data de nascimento: *</strong></label>
+                    <input id="date" type="date" required>
+                </div>
+
+                <div class="campo">
+                    <label for="civil"><strong>Estado civil: </strong></label>
+                    <select id="civil">
+                        <option selected disable value="">Selecione</option>
+                        <option>Casado(a)</option>
+                        <option>Solteiro(a)</option>
+                        <option>União estável</option>
+                        <option>Divorciado(a)</option>
+                        <option>Viúvo(a)</option>
+                    </select>
+                </div><br>
+
+                <div class="campo">
+                    <label class="cep"><strong>CEP: *</strong></label>
+                    <input type="text" name="cep" id="cep" required>
+                </div>
+
+                <div class="campo">
+                    <label><strong>Endereço: </strong></label>
+                    <input type="text" name="endereco" id="endereco">
+                </div>
+
+                <div class="campo">
+                    <label><strong>Bairro: </strong></label>
+                    <input type="text" name="bairro" id="bairro">
+                </div><br>
+
+                <div class="campo">
+                    <label><strong>Cidade: </strong></label>
+                    <input type="text" name="cidade" id="cidade">
+                </div>
+
+                <div class="campo">
+                    <label><strong>Estado:</strong></label>
+                    <input type="text" name="estado" id="estado">
+                </div>
+
+                <div class="campo">
+                    <label><strong>Telefone Fixo 1: </strong></label>
+                    <input type="text" name="telefone1" id="telefone1">
+                </div>
+
+                <div class="campo">
+                    <label><strong>Celular: </strong></label>
+                    <input type="text" name="celular" id="celular">
+                </div>
+
+                <div class="campo">
+                    <label><strong>Contato: </strong></label>
+                    <input type="text" name="contato" id="contato">
+                </div>
+
+                <div class="campo">
+                    <label><strong>Profissão:</strong></label>
+                    <input type="text" name="profissao" id="profissao">
+                </div>
+            </form><br>
+
+            <h2 class="titulo">DOCUMENTOS</h2>
+
+            <br>
+
+            <form>
+                <div>
+                    <div class="campo">
+                        <label><strong>Identidade: *</strong></label>
+                        <input type="text" name="identidade" id="identidade" required> 
+                    </div>
+
+                    <div class="campo">
+                        <label><strong>CPF: *</strong></label>
+                        <input type="text" name="cpf" id="cpf" required>
+                    </div><br>
+
+                    <div class="campo">
+                        <label><strong>Possui veículo?</strong></label>
+                        <select id="veiculo">
+                            <option selected disable value="">Selecione</option>
+                            <option>Sim</option>
+                            <option>Não</option>
+                        </select>
+                    </div>
+
+                    <div class="campo">
+                        <label><strong>Habilitação: </strong></label>
+                        <select id="habilitacao">
+                            <option selected disable value="">Selecione</option>
+                            <option>A</option>
+                            <option>B</option>
+                            <option>C</option>
+                            <option>D</option>
+                            <option>E</option>
+                        </select>
+                    </div> <br>
+                    
+                    <button class="botao" type="submit">Concluído</button>
+            
+                </div>    
+            </form>
+        </div>
+    </main>  
 </body>
 </html>
