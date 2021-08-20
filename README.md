@@ -23,9 +23,9 @@
 
 <h4>Regra de Negócio</h4>
 <ol type="1">
-     <li>Não pode haver 2 cadastros de candidatos com o mesmo cpf;</li>
-     <li>Todo candidato precisará preencher os campos: CPF, Nome, Data Nascimento, Cep, Logradouro, Número, Bairro, Cidade, Email, Profissão e Celular.</li>
-<ol>
+    <li>Não pode haver 2 cadastros de candidatos com o mesmo cpf;</li>
+    <li>Todo candidato precisará preencher os campos: CPF, Nome, Data Nascimento, Cep, Logradouro, Número, Bairro, Cidade, Email, Profissão e Celular.</li>
+</ol>
 
 <h4>Integração entre a Página de Formulário e o Back-end</h4>
 <ol type="1">
