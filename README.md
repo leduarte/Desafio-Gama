@@ -16,8 +16,7 @@
 <h2>Backend</h2>
 
 <h4>Domínio - Modelagem de Dados</h4>
-
- <ol type="1">
+<ol type="1">
      <li>Cadastro de candidatos com os campos: Id, Nome, Data Nascimento, Endereço {cep, logradouro, numero, bairro, cidade e estado}, Telefone, Email e Profissão e demais campos mencionados na imagem de ilustração de formulário de candidatos. </li>
      <li>Para a conclusão do cadastro, consultar o seu endereço pelo CEP informado (Consultar a API VIA Cep) NOTA: O sistema deverá utilizar de algum client API para buscar um endereço do serviço via cep conforme link: https://viacep.com.br/ws/{SEU_CEP}/json/</li>
 </ol>
